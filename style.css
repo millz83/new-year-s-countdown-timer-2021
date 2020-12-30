@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0,.7),rgba(0,0,0,0.7));
+    background-image: url('firework.png');
+    background-size:cover;
+    overflow: hidden;
+    background-position:center;   
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.container h1 {
+    color:gold;
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+ .container h2 {
+     margin-bottom: 100px;
+     text-align: center;
+     justify-content: center;
+    color: #fff;;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+ .Countdown {
+    margin: 50px 0;
+}
+
+
+
+  .countd {
+    display:inline-block;
+   width:80px;
+   height: 80px;
+    border:5px solid;
+    margin: 0 30px;
+    font-size: 13px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -45px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+
+}
+
+.countd span {
+    display:block;
+    font-size: 1.8rem;
+    margin-top: 0px;
+}
